@@ -8,6 +8,13 @@ export default {
   ],
   theme: {
     extend: {
+      letterSpacing:{
+        '3pct':'3%'
+      },
+      fontFamily:{
+        poppins:["Poppins","sans-sarif"],
+        inter:["Inter","sans-sarif"]
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
